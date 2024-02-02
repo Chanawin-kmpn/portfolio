@@ -20,6 +20,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     color: #121212; 
     font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
   }

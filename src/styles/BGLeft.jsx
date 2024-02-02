@@ -17,17 +17,14 @@ const BGLeft = () => {
 };
 
 const BarWrapper = styled.div`
-  position: fixed;
+  position: absolute;
   top: 0;
+  left: 0;
   z-index: -1;
 `;
 const slide = keyframes`
     from {
-        width: 0;
-    }
-
-    to {
-        /* width: 100%; */
+      width: 50px;
     }
 `;
 

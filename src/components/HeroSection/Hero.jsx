@@ -1,6 +1,6 @@
 import React from "react";
-import { Section } from "../styles/Section";
-import Nav from "./Nav";
+import { Section } from "../../styles/Section";
+import Nav from "../Nav";
 import {
   DownloadButton,
   Greeting,
@@ -8,12 +8,12 @@ import {
   Role,
   GreetingDescription,
   Rotate,
-} from "../styles/HeroStyle";
-import SocialLink from "./SocialLink";
-
+} from "../../styles/HeroStyle";
+import SocialLink from "../SocialLink";
+import BGLeft from "../../styles/BGLeft";
 const Hero = () => {
   return (
-    <Section>
+    <Section className="padding-none">
       <Nav />
       <GreetingContent>
         <Greeting>
@@ -46,6 +46,7 @@ const Hero = () => {
         </DownloadButton>
         <SocialLink />
       </GreetingContent>
+      <BGLeft />
     </Section>
   );
 };
