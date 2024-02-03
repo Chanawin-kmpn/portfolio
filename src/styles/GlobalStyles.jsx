@@ -13,9 +13,7 @@ const GlobalStyles = createGlobalStyle`
     max-width: 100%;
   }
 
-  html {
-    font-size: 1.125rem;
-  }
+
 
   body {
     color: #121212; 

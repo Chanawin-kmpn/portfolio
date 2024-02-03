@@ -68,7 +68,7 @@ const DownloadButton = styled.button`
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
   }
