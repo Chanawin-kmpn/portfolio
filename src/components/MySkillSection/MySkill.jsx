@@ -1,5 +1,5 @@
 import React from "react";
-import { Section } from "../../styles/Section";
+import { Section } from "../../styles/SectionStyle";
 import BGLeft from "../../styles/BGLeft";
 import { BorderText, SectionTitle, TextTitle } from "../../styles/TitleStyle";
 import {
