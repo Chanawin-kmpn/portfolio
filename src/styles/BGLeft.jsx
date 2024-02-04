@@ -24,7 +24,7 @@ const BarWrapper = styled.div`
 `;
 const slide = keyframes`
     from {
-      width: 50px;
+      width: 0;
     }
 `;
 

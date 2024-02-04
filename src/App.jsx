@@ -8,6 +8,8 @@ import AboutMeSection from "./components/AboutMeSection/AboutMeSection";
 import AboutMe from "./components/AboutMeSection/AboutMe";
 import MySkillSection from "./components/MySkillSection/MySkillSection";
 import MySkill from "./components/MySkillSection/MySkill";
+import MyProject from "./components/MyProjectSection/MyProject";
+import MyProjectSection from "./components/MyProjectSection/MyProjectSection";
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
       <MySkillSection>
         <MySkill />
       </MySkillSection>
+      <MyProjectSection>
+        <MyProject />
+      </MyProjectSection>
       <GlobalStyles />
     </Wrapper>
   );

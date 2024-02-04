@@ -21,6 +21,8 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
+  cursor: default;
+
   }
 `;
 
