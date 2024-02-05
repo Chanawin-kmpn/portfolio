@@ -1,4 +1,5 @@
 import React from "react";
+import MyProfile from "../../assets/images/my-profile.webp";
 import { Section } from "../../styles/SectionStyle";
 import {
   AboutmeDescription,
@@ -28,7 +29,7 @@ const AboutMe = () => {
           <p>
             My first experience with programming was in my first year at
             university, coding in C++ for an Arduino. At that time, I still felt
-            indifferent about programming.{" "}
+            indifferent about programming.
           </p>
           <p>
             In my last year I had the opportunity to participate in a program of
@@ -47,7 +48,7 @@ const AboutMe = () => {
           </p>
         </AboutmeDescription>
         <ProfileWrapper>
-          <img src="/src/assets/images/Profile.jpg" alt="" />
+          <img src={MyProfile} alt="" />
         </ProfileWrapper>
       </AboutmeContent>
       {/* <BGLeft /> */}

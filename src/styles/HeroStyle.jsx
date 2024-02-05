@@ -72,6 +72,10 @@ const DownloadButton = styled.button`
     font-weight: bold;
     text-decoration: none;
   }
+
+  & span img {
+    max-width: 2rem;
+  }
 `;
 
 export {

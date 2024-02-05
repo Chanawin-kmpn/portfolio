@@ -1,4 +1,5 @@
 import React from "react";
+import EnthusiasticImage from "../assets/images/enthusiastic-illustrator.svg";
 import {
   CloseBtn,
   ContentWrapper,
@@ -15,7 +16,7 @@ const FormResultModal = ({ setIsOpen }) => {
     <Modal>
       <ModalCard>
         <ImageWrapper>
-          <img src="/src/assets/images/Enthusiastic-cuate.svg" alt="" />
+          <img src={EnthusiasticImage} alt="enthusiastic-image" />
         </ImageWrapper>
         <ContentWrapper>
           <p>

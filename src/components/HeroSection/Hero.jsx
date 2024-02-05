@@ -1,4 +1,5 @@
 import React from "react";
+import DownLoadIcon from "../../assets/icons/download-icon.webp";
 import { Section } from "../../styles/SectionStyle";
 import {
   DownloadButton,
@@ -36,7 +37,7 @@ const Hero = () => {
             <span>
               <img
                 className="download-icon"
-                src="/src/assets/icons/download-icon.svg"
+                src={DownLoadIcon}
                 alt="Download-icon"
               />
             </span>

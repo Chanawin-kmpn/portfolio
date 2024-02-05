@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LogoImage from "../../assets/images/ck-logo.webp";
 import { Section } from "../../styles/SectionStyle";
 import {
   Aside,
@@ -96,7 +97,7 @@ const Contact = () => {
       </ContactContainer>
       <Footer>
         <Logo>
-          <img src="/src/assets/images/ck-logo.webp" alt="" />
+          <img src={LogoImage} alt="ck-logo" />
         </Logo>
         <div>&copy; 2024 Chanawin</div>
       </Footer>
