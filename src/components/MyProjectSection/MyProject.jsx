@@ -64,15 +64,31 @@ const MyProject = () => {
           <Project>
             <img src="https://placehold.co/648" alt="" />
             <ProjectDetail>
-              <p></p>
-              <a href=""></a>
+              <ProjectTitle>First Project</ProjectTitle>
+              <Description>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                molestias cupiditate perferendis, facere cum nobis quis ipsum
+                harum officiis architecto repellat quam numquam tenetur ullam
+                natus aut voluptatum soluta incidunt?
+              </Description>
+              <DetailLink href="">
+                More detail <span>--&gt;</span>
+              </DetailLink>
             </ProjectDetail>
           </Project>
           <Project>
             <img src="https://placehold.co/648" alt="" />
             <ProjectDetail>
-              <p></p>
-              <a href=""></a>
+              <ProjectTitle>First Project</ProjectTitle>
+              <Description>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                molestias cupiditate perferendis, facere cum nobis quis ipsum
+                harum officiis architecto repellat quam numquam tenetur ullam
+                natus aut voluptatum soluta incidunt?
+              </Description>
+              <DetailLink href="">
+                More detail <span>--&gt;</span>
+              </DetailLink>
             </ProjectDetail>
           </Project>
         </ProjectWrapper>
@@ -90,7 +106,7 @@ const MyProject = () => {
               <HiddenMessage>
                 <p>If you are interesting me please contact me.</p>
                 <div>
-                  <a href="" className="gradient-btn">
+                  <a href="#" className="gradient-btn">
                     Contact me!
                   </a>
                 </div>

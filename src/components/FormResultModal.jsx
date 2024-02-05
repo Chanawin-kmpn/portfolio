@@ -22,7 +22,9 @@ const FormResultModal = ({ setIsOpen }) => {
           <p>
             Thank you for submitting form. I will reply as soon as possible.
           </p>
-          <CloseBtn onClick={() => closeModal()}>Close</CloseBtn>
+          <CloseBtn aria-label="close-button" onClick={() => closeModal()}>
+            Close
+          </CloseBtn>
         </ContentWrapper>
       </ModalCard>
     </Modal>

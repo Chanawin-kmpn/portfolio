@@ -64,19 +64,33 @@ const Contact = () => {
             <FirstInput>
               <InputWrapper>
                 <Label htmlFor="name">Full name:</Label>
-                <Input type="text" name="name" required />
+                <Input
+                  type="text"
+                  name="name"
+                  aria-label="full-name"
+                  required
+                />
               </InputWrapper>
               <InputWrapper>
                 <Label htmlFor="email">Email:</Label>
-                <Input type="email" name="email" required />
+                <Input type="email" name="email" aria-label="email" required />
               </InputWrapper>
             </FirstInput>
             <InputWrapper>
               <Label htmlFor="message">Message:</Label>
-              <Textarea name="message" rows="10" required></Textarea>
+              <Textarea
+                name="message"
+                rows="10"
+                aria-label="textarea"
+                required
+              ></Textarea>
             </InputWrapper>
             {/* <div className="h-captcha" data-captcha="true"></div> */}
-            <SubmitBtn className="gradient-btn" type="submit">
+            <SubmitBtn
+              aria-label="submit-button"
+              className="gradient-btn"
+              type="submit"
+            >
               Submit form!
             </SubmitBtn>
           </FormWrapper>
