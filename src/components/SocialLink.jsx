@@ -1,9 +1,9 @@
 import React from "react";
 import { Line, SocialWrapper, Link } from "../styles/SocialLinkStyle";
 
-const SocialLink = () => {
+const SocialLink = ({ classValue }) => {
   return (
-    <SocialWrapper className="float-right">
+    <SocialWrapper className={classValue}>
       <Link href="https://github.com/Chanawin-kmpn" target="_blank">
         <img src="/src/assets/icons/github-icon.svg" alt="github-icon" />
       </Link>

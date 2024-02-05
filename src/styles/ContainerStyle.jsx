@@ -7,5 +7,9 @@ const Container = styled.section`
   &.black-bg {
     background-color: #121212;
   }
+
+  &.small-height {
+    min-height: fit-content;
+  }
 `;
 export { Container };

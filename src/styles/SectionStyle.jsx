@@ -11,6 +11,10 @@ const Section = styled.section`
   &.padding-none {
     padding: 0;
   }
+
+  &.border-line {
+    border-block: 1px solid #121212;
+  }
 `;
 
 export { Section };

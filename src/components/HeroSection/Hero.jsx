@@ -14,7 +14,6 @@ import BGLeft from "../../styles/BGLeft";
 const Hero = () => {
   return (
     <Section className="padding-none">
-      <Nav />
       <GreetingContent>
         <Greeting>
           Hi, <Rotate>👋</Rotate>
@@ -44,7 +43,7 @@ const Hero = () => {
             </span>
           </a>
         </DownloadButton>
-        <SocialLink />
+        <SocialLink classValue="float-right" />
       </GreetingContent>
       <BGLeft />
     </Section>

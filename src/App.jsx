@@ -10,10 +10,14 @@ import MySkillSection from "./components/MySkillSection/MySkillSection";
 import MySkill from "./components/MySkillSection/MySkill";
 import MyProject from "./components/MyProjectSection/MyProject";
 import MyProjectSection from "./components/MyProjectSection/MyProjectSection";
+import Contact from "./components/Contact/Contact";
+import ContactSection from "./components/Contact/ContactSection";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <Wrapper>
+      <Nav />
       <HeroSection>
         <Hero />
       </HeroSection>
@@ -26,6 +30,9 @@ function App() {
       <MyProjectSection>
         <MyProject />
       </MyProjectSection>
+      <ContactSection>
+        <Contact />
+      </ContactSection>
       <GlobalStyles />
     </Wrapper>
   );

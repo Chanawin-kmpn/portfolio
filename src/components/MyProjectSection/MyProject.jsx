@@ -89,7 +89,9 @@ const MyProject = () => {
               <HiddenMessage>
                 <p>If you are interesting me please contact me.</p>
                 <div>
-                  <a href="">Contact me!</a>
+                  <a href="" className="gradient-btn">
+                    Contact me!
+                  </a>
                 </div>
               </HiddenMessage>
 

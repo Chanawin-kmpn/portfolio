@@ -22,8 +22,8 @@ const GlobalStyles = createGlobalStyle`
     display: flex;
     flex-direction: column;
   cursor: default;
-
   }
+
 `;
 
 export default GlobalStyles;
