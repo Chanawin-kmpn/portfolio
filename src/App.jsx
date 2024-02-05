@@ -10,8 +10,8 @@ import MySkillSection from "./components/MySkillSection/MySkillSection";
 import MySkill from "./components/MySkillSection/MySkill";
 import MyProject from "./components/MyProjectSection/MyProject";
 import MyProjectSection from "./components/MyProjectSection/MyProjectSection";
-import Contact from "./components/Contact/Contact";
-import ContactSection from "./components/Contact/ContactSection";
+import Contact from "./components/ContactSection/Contact";
+import ContactSection from "./components/ContactSection/ContactSection";
 import Nav from "./components/Nav";
 
 function App() {

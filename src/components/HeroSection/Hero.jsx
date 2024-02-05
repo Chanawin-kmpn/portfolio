@@ -1,6 +1,5 @@
 import React from "react";
 import { Section } from "../../styles/SectionStyle";
-import Nav from "../Nav";
 import {
   DownloadButton,
   Greeting,
