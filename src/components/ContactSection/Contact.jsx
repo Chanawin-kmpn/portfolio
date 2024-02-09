@@ -50,7 +50,7 @@ const Contact = () => {
     }
   };
   return (
-    <Section className="border-line">
+    <Section className="border-line section" id="contact">
       <ContactContainer>
         <div>
           <div>
@@ -113,7 +113,7 @@ const Contact = () => {
         <Logo>
           <img src={LogoImage} alt="ck-logo" />
         </Logo>
-        <div>&copy; 2024 Chanawin</div>
+        <div>Copyright &copy; 2024 Chanawin Portfolio</div>
       </Footer>
     </Section>
   );

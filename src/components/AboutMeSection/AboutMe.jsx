@@ -10,11 +10,9 @@ import { BorderText, SectionTitle, TextTitle } from "../../styles/TitleStyle";
 
 const AboutMe = () => {
   return (
-    <Section className="black-bg">
+    <Section className="black-bg section" id="aboutme">
       <SectionTitle className="white-text">
-        <TextTitle>
-          About <BorderText>me</BorderText>
-        </TextTitle>
+        <TextTitle>About me</TextTitle>
       </SectionTitle>
       <AboutmeContent>
         <AboutmeDescription>

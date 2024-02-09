@@ -13,7 +13,7 @@ import SocialLink from "../SocialLink";
 import BGLeft from "../../styles/BGLeft";
 const Hero = () => {
   return (
-    <Section className="padding-none">
+    <Section className="padding-none section" id="hero">
       <GreetingContent>
         <Greeting>
           Hi, <Rotate>👋</Rotate>

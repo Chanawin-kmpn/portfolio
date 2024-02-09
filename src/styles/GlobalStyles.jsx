@@ -8,12 +8,11 @@ const GlobalStyles = createGlobalStyle`
     font-family: inherit;
   }
 
+
   img,svg {
     display: block;
     max-width: 100%;
   }
-
-
 
   body {
     color: #121212; 

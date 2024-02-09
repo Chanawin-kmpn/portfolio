@@ -38,7 +38,7 @@ const MyProject = () => {
     };
   }, []);
   return (
-    <Section>
+    <Section className="section" id="project">
       <SectionTitle>
         <TextTitle>
           My <BorderText>Project</BorderText>

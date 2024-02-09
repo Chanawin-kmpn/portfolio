@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 const Navbar = styled.nav`
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
   padding: 1.25rem 4rem;
+  z-index: 1000;
 `;
 
 const Logo = styled.div`
