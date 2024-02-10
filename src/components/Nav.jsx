@@ -25,26 +25,32 @@ const Nav = () => {
   return (
     <Navbar>
       <Logo>
-        <img src={LogoImage} alt="CK-Logo" />
+        <SectionLink
+          onClick={handleLinkClick}
+          className="nav-link"
+          href="#hero"
+        >
+          <img src={LogoImage} alt="CK-Logo" />
+        </SectionLink>
       </Logo>
       <NavLink>
         <SectionLink
           onClick={handleLinkClick}
-          className="nav-link"
+          className="nav-link link"
           href="#aboutme"
         >
           About
         </SectionLink>
         <SectionLink
           onClick={handleLinkClick}
-          className="nav-link"
+          className="nav-link link"
           href="#project"
         >
           Projects
         </SectionLink>
         <SectionLink
           onClick={handleLinkClick}
-          className="nav-link"
+          className="nav-link link"
           href="#contact"
         >
           Contact
