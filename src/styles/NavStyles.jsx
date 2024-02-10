@@ -26,7 +26,7 @@ const SectionLink = styled.a`
   font-weight: bold;
   text-decoration: none;
 
-  &::before {
+  &.link::before {
     content: "";
     position: absolute;
     display: block;
