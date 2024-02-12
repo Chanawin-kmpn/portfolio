@@ -104,7 +104,10 @@ const MyProject = () => {
           {showMessage && (
             <Hidden>
               <HiddenMessage>
-                <p>If you are interesting me please contact me.</p>
+                <p>
+                  If my qualifications or experience interest you, please
+                  contact me.
+                </p>
                 <div>
                   <a href="#" className="gradient-btn">
                     Contact me!

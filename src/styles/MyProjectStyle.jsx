@@ -89,8 +89,8 @@ const Hidden = styled.div`
 const HiddenMessage = styled.div`
   position: relative;
   color: #ffffff;
-  font-size: 1.25rem;
-  max-width: 23.75rem;
+  font-size: 1rem;
+  max-width: 24.75rem;
   background-color: #121212;
   border-radius: 10px;
   opacity: 0;
@@ -130,7 +130,7 @@ const HiddenMessage = styled.div`
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     ${gradientBg}
     animation: ${gradientAnimation} 10s ease-in-out infinite;
   }

@@ -6,7 +6,7 @@ import {
   ProfileWrapper,
   AboutmeContent,
 } from "../../styles/AboutMeStyle";
-import { BorderText, SectionTitle, TextTitle } from "../../styles/TitleStyle";
+import { SectionTitle, TextTitle } from "../../styles/TitleStyle";
 
 const AboutMe = () => {
   return (
