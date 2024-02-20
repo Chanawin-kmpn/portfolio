@@ -21,6 +21,10 @@ const BarWrapper = styled.div`
   top: 0;
   left: 0;
   z-index: -1;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 const slide = keyframes`
     from {

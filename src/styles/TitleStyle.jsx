@@ -10,8 +10,16 @@ const SectionTitle = styled.div`
 `;
 const TextTitle = styled.h2`
   font-size: 3rem;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+
   &.right {
     text-align: end;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
   }
 `;
 

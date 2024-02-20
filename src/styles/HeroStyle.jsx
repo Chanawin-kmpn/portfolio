@@ -6,12 +6,21 @@ const GreetingContent = styled.div`
   align-self: flex-end;
   max-width: fit-content;
   margin-top: 5.6rem;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100%;
+    padding-inline: 3rem;
+  }
 `;
 
 const Greeting = styled.h1`
   font-size: 4rem;
   line-height: 5.3125rem; /* 132.813% */
   letter-spacing: 0.08rem;
+  @media (max-width: 768px) {
+    font-size: 3.5rem;
+  }
 `;
 
 const Role = styled.span`
@@ -41,6 +50,10 @@ const GreetingDescription = styled.div`
 
   .description {
     font-size: 2rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 `;
 

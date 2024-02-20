@@ -24,7 +24,8 @@ const Hero = () => {
         </Greeting>
         <GreetingDescription>
           <p className="description">
-            I like to build quality website with design and perfect-pixel
+            I enjoy creating quality websites with built from scratch designs
+            and pixel-perfect execution.
           </p>
         </GreetingDescription>
         <DownloadButton aria-label="download-cv-button">

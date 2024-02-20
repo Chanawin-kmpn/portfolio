@@ -8,5 +8,9 @@ const Wrapper = ({ children }) => {
 const Container = styled.div`
   min-width: 1440px;
   position: relative;
+
+  @media (max-width: 768px) {
+    min-width: 375px;
+  }
 `;
 export default Wrapper;

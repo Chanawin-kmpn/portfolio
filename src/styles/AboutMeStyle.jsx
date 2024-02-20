@@ -3,6 +3,11 @@ import styled from "styled-components";
 const AboutmeContent = styled.div`
   display: flex;
   align-items: flex-start;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
 `;
 
 const AboutmeDescription = styled.div`
@@ -11,6 +16,12 @@ const AboutmeDescription = styled.div`
   flex-direction: column;
   gap: 1rem;
   max-width: 870px;
+
+  & p {
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
 `;
 
 const ProfileWrapper = styled.div`
@@ -23,6 +34,12 @@ const ProfileWrapper = styled.div`
     border: 3px solid #ffffff;
     border-radius: 100%;
     margin: 0 auto;
+    @media (max-width: 768px) {
+      max-width: 250px;
+    }
+  }
+  @media (max-width: 768px) {
+    align-self: center;
   }
 `;
 
