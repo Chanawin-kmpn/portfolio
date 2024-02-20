@@ -37,7 +37,7 @@ const Hero = () => {
             <span>
               <img
                 className="download-icon"
-                src="/assets/icons/download-icon-light.svg"
+                src="/public/assets/icons/download-icon.webp"
                 alt="Download-icon"
               />
             </span>

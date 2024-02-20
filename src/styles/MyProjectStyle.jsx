@@ -4,6 +4,10 @@ import { gradientAnimation, gradientBg } from "./GradientBtn";
 const ProjectContent = styled.div`
   display: flex;
   gap: 5.875rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 const ProjectWrapper = styled.div`
   display: flex;
@@ -63,9 +67,13 @@ const ProjectTitle = styled.h3`
 const Aside = styled.aside`
   align-self: flex-start;
   position: sticky;
-  top: 4rem;
+  top: 7.3rem;
   max-width: 35.625rem;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    max-width: none;
+  }
 `;
 
 const rotate = keyframes`
@@ -84,6 +92,10 @@ const Hidden = styled.div`
   max-width: 31.25rem;
   height: 515px;
   margin-top: 4rem;
+
+  @media (max-width: 768px) {
+    transform: translateX(60%);
+  }
 `;
 
 const HiddenMessage = styled.div`

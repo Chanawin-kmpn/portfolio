@@ -10,11 +10,19 @@ const ContactTitle = styled.h2`
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 const ContactDescription = styled.p`
   font-size: 2rem;
   max-width: 55.4375rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const FormWrapper = styled.form`
@@ -27,6 +35,11 @@ const FormWrapper = styled.form`
 const FirstInput = styled.div`
   display: flex;
   gap: 2rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
   & * {
     flex: 1;
   }
@@ -41,6 +54,10 @@ const InputWrapper = styled.div`
 const Label = styled.label`
   font-size: 1.5rem;
   font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 1.25rem;
+  }
 `;
 
 const Input = styled.input`

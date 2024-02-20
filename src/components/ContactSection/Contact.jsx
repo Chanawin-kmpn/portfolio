@@ -18,6 +18,7 @@ import SocialLink from "../SocialLink";
 import { Logo } from "../../styles/NavStyles";
 import FormResultModal from "../FormResultModal";
 import {
+  CopyRight,
   DirectlyEmail,
   Email,
   Footer,
@@ -112,7 +113,7 @@ const Contact = () => {
         <Logo>
           <img src="/assets/images/ck-logo.webp" alt="ck-logo" />
         </Logo>
-        <div>Copyright &copy; 2024 Chanawin Portfolio</div>
+        <CopyRight>Copyright &copy; 2024 Chanawin Portfolio</CopyRight>
       </Footer>
     </Section>
   );

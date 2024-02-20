@@ -53,6 +53,16 @@ const DirectlyEmail = styled.div`
   display: flex;
   align-items: center;
   margin-top: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.25rem;
+  }
+
+  & p {
+    @media (max-width: 768px) {
+      width: fit-content;
+    }
+  }
 `;
 
 const Email = styled.div`
@@ -61,6 +71,10 @@ const Email = styled.div`
   width: fit-content;
   border-bottom: 3px solid #121212;
   margin-top: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Footer = styled.footer`
@@ -68,6 +82,12 @@ const Footer = styled.footer`
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
+`;
+
+const CopyRight = styled.div`
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 export {
   Modal,
@@ -78,4 +98,5 @@ export {
   Email,
   CloseBtn,
   Footer,
+  CopyRight,
 };
