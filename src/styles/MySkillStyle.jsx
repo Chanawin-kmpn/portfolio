@@ -7,9 +7,18 @@ const MySkillContent = styled.div`
 
 const MySkillDescription = styled.div`
   margin-bottom: 4rem;
+
+  & p {
+    @media (max-width: 768px) {
+      font-size: 1.25rem;
+    }
+  }
 `;
 
 const SkillSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
   padding-inline: 1rem;
 `;
 
@@ -26,6 +35,29 @@ const SkillList = styled.li`
   width: 230px;
   max-width: 280px;
   flex: 1 1 200px;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+`;
+
+const SkillIconWrapper = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+`;
+
+const SkillIconList = styled.li`
+  list-style: none;
+
+  & img {
+    max-width: 4rem;
+  }
+
+  &.double-icon {
+    display: flex;
+    gap: 1rem;
+  }
 `;
 
 export {
@@ -34,4 +66,6 @@ export {
   SkillSection,
   SkillWrapper,
   SkillList,
+  SkillIconWrapper,
+  SkillIconList,
 };

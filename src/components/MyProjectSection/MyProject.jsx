@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import MyIllustration from "../../assets/images/my-illustrator.webp";
 import { Section } from "../../styles/SectionStyle";
 import { BorderText, SectionTitle, TextTitle } from "../../styles/TitleStyle";
 import {
@@ -116,7 +115,10 @@ const MyProject = () => {
               </HiddenMessage>
 
               <HiddenImage>
-                <img src={MyIllustration} alt="My illustrator" />
+                <img
+                  src="/public/assets/images/my-illustrator.webp"
+                  alt="My illustrator"
+                />
               </HiddenImage>
             </Hidden>
           )}

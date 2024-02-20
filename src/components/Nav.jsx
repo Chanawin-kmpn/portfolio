@@ -1,5 +1,4 @@
 import React from "react";
-import LogoImage from "../assets/images/ck-logo.webp";
 import { Logo, NavLink, Navbar, SectionLink } from "../styles/NavStyles";
 const Nav = () => {
   const handleLinkClick = (event) => {
@@ -30,7 +29,7 @@ const Nav = () => {
           className="nav-link"
           href="#hero"
         >
-          <img src={LogoImage} alt="CK-Logo" />
+          <img src="/assets/images/ck-logo.webp" alt="CK-Logo" />
         </SectionLink>
       </Logo>
       <NavLink>

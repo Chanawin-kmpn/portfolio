@@ -8,6 +8,8 @@ import {
   SkillList,
   SkillSection,
   SkillWrapper,
+  SkillIconWrapper,
+  SkillIconList,
 } from "../../styles/MySkillStyle";
 const MySkill = () => {
   return (
@@ -37,7 +39,69 @@ const MySkill = () => {
             <SkillList>NodeJS/Express</SkillList>
             <SkillList>Styled-Components</SkillList>
             <SkillList>GIT</SkillList>
+            <SkillList>MongoDB</SkillList>
           </SkillWrapper>
+          <SkillIconWrapper>
+            <SkillIconList className="double-icon">
+              <img src="/public/assets/skill-icon/html5-original.webp" alt="" />
+              <img src="/public/assets/skill-icon/css3-original.webp" alt="" />
+            </SkillIconList>
+            <SkillIconList>
+              <img
+                src="/public/assets/skill-icon/javascript-original.webp"
+                alt=""
+              />
+            </SkillIconList>
+            <SkillIconList>
+              <img src="/public/assets/skill-icon/react-original.webp" alt="" />
+            </SkillIconList>
+            <SkillIconList>
+              <img
+                src="/public/assets/skill-icon/tailwindcss-plain.webp"
+                alt=""
+              />
+            </SkillIconList>
+            <SkillIconList>
+              <img
+                src="/public/assets/skill-icon/bootstrap-original.webp"
+                alt=""
+              />
+            </SkillIconList>
+            <SkillIconList>
+              <img
+                src="/public/assets/skill-icon/materialui-original.webp"
+                alt=""
+              />
+            </SkillIconList>
+            <SkillIconList className="double-icon">
+              <img
+                src="/public/assets/skill-icon/nodejs-original-wordmark.webp"
+                alt=""
+              />
+              <img
+                src="/public/assets/skill-icon/express-original.webp"
+                alt=""
+              />
+            </SkillIconList>
+            <SkillIconList>
+              <img
+                src="/public/assets/skill-icon/styled-component.webp"
+                alt=""
+              />
+            </SkillIconList>
+            <SkillIconList>
+              <img
+                src="/public/assets/skill-icon/github-original.webp"
+                alt=""
+              />
+            </SkillIconList>
+            <SkillIconList>
+              <img
+                src="/public/assets/skill-icon/mongodb-original.webp"
+                alt=""
+              />
+            </SkillIconList>
+          </SkillIconWrapper>
         </SkillSection>
       </MySkillContent>
       <BGLeft />

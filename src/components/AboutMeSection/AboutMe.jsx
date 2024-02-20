@@ -1,5 +1,4 @@
 import React from "react";
-import MyProfile from "../../assets/images/my-profile.webp";
 import { Section } from "../../styles/SectionStyle";
 import {
   AboutmeDescription,
@@ -46,7 +45,7 @@ const AboutMe = () => {
           </p>
         </AboutmeDescription>
         <ProfileWrapper>
-          <img src={MyProfile} alt="" />
+          <img src="/assets/images/my-profile.webp" alt="profile-image" />
         </ProfileWrapper>
       </AboutmeContent>
       {/* <BGLeft /> */}
