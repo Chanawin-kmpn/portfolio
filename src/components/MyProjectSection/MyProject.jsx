@@ -21,7 +21,6 @@ const MyProject = () => {
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
     const triggerPoint = 3300; // Adjust this value based on when you want the message to appear
-    console.log(scrollPosition);
 
     if (scrollPosition > triggerPoint) {
       setShowMessage(true);
