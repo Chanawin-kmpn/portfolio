@@ -43,63 +43,42 @@ const MySkill = () => {
           </SkillWrapper>
           <SkillIconWrapper>
             <SkillIconList className="double-icon">
-              <img src="/public/assets/skill-icon/html5-original.webp" alt="" />
-              <img src="/public/assets/skill-icon/css3-original.webp" alt="" />
-            </SkillIconList>
-            <SkillIconList>
               <img
-                src="/public/assets/skill-icon/javascript-original.webp"
-                alt=""
+                src="/assets/skill-icon/html5-original.webp"
+                alt="html-icon"
               />
+              <img src="/assets/skill-icon/css3-original.webp" alt="css-icon" />
             </SkillIconList>
             <SkillIconList>
-              <img src="/public/assets/skill-icon/react-original.webp" alt="" />
+              <img src="/assets/skill-icon/javascript-original.webp" alt="" />
             </SkillIconList>
             <SkillIconList>
-              <img
-                src="/public/assets/skill-icon/tailwindcss-plain.webp"
-                alt=""
-              />
+              <img src="/assets/skill-icon/react-original.webp" alt="" />
             </SkillIconList>
             <SkillIconList>
-              <img
-                src="/public/assets/skill-icon/bootstrap-original.webp"
-                alt=""
-              />
+              <img src="/assets/skill-icon/tailwindcss-plain.webp" alt="" />
             </SkillIconList>
             <SkillIconList>
-              <img
-                src="/public/assets/skill-icon/materialui-original.webp"
-                alt=""
-              />
+              <img src="/assets/skill-icon/bootstrap-original.webp" alt="" />
+            </SkillIconList>
+            <SkillIconList>
+              <img src="/assets/skill-icon/materialui-original.webp" alt="" />
             </SkillIconList>
             <SkillIconList className="double-icon">
               <img
-                src="/public/assets/skill-icon/nodejs-original-wordmark.webp"
+                src="/assets/skill-icon/nodejs-original-wordmark.webp"
                 alt=""
               />
-              <img
-                src="/public/assets/skill-icon/express-original.webp"
-                alt=""
-              />
+              <img src="/assets/skill-icon/express-original.webp" alt="" />
             </SkillIconList>
             <SkillIconList>
-              <img
-                src="/public/assets/skill-icon/styled-component.webp"
-                alt=""
-              />
+              <img src="/assets/skill-icon/styled-component.webp" alt="" />
             </SkillIconList>
             <SkillIconList>
-              <img
-                src="/public/assets/skill-icon/github-original.webp"
-                alt=""
-              />
+              <img src="/assets/skill-icon/github-original.webp" alt="" />
             </SkillIconList>
             <SkillIconList>
-              <img
-                src="/public/assets/skill-icon/mongodb-original.webp"
-                alt=""
-              />
+              <img src="/assets/skill-icon/mongodb-original.webp" alt="" />
             </SkillIconList>
           </SkillIconWrapper>
         </SkillSection>

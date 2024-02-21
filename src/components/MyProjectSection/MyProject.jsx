@@ -55,7 +55,7 @@ const MyProject = () => {
                 harum officiis architecto repellat quam numquam tenetur ullam
                 natus aut voluptatum soluta incidunt?
               </Description>
-              <DetailLink href="">
+              <DetailLink href="#">
                 More detail <span>--&gt;</span>
               </DetailLink>
             </ProjectDetail>
@@ -70,7 +70,7 @@ const MyProject = () => {
                 harum officiis architecto repellat quam numquam tenetur ullam
                 natus aut voluptatum soluta incidunt?
               </Description>
-              <DetailLink href="">
+              <DetailLink href="#">
                 More detail <span>--&gt;</span>
               </DetailLink>
             </ProjectDetail>
@@ -85,7 +85,7 @@ const MyProject = () => {
                 harum officiis architecto repellat quam numquam tenetur ullam
                 natus aut voluptatum soluta incidunt?
               </Description>
-              <DetailLink href="">
+              <DetailLink href="#">
                 More detail <span>--&gt;</span>
               </DetailLink>
             </ProjectDetail>
@@ -116,7 +116,7 @@ const MyProject = () => {
 
               <HiddenImage>
                 <img
-                  src="/public/assets/images/my-illustrator.webp"
+                  src="/assets/images/my-illustrator.webp"
                   alt="My illustrator"
                 />
               </HiddenImage>
