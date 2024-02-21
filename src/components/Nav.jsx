@@ -1,6 +1,19 @@
-import React from "react";
-import { Logo, NavLink, Navbar, SectionLink } from "../styles/NavStyles";
+import React, { useState } from "react";
+import {
+  DesktopLink,
+  MobileLink,
+  Logo,
+  MenuButton,
+  NavLink,
+  Navbar,
+  SectionLink,
+  CloseButton,
+} from "../styles/NavStyles";
 const Nav = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
   const handleLinkClick = (event) => {
     event.preventDefault(); // Prevent default anchor link behavior
     const targetId = event.currentTarget.getAttribute("href").slice(1); // Get the target element's id
@@ -21,6 +34,7 @@ const Nav = () => {
       });
     }
   };
+
   return (
     <Navbar>
       <Logo>
@@ -33,27 +47,58 @@ const Nav = () => {
         </SectionLink>
       </Logo>
       <NavLink>
-        <SectionLink
-          onClick={handleLinkClick}
-          className="nav-link link"
-          href="#aboutme"
-        >
-          About
-        </SectionLink>
-        <SectionLink
-          onClick={handleLinkClick}
-          className="nav-link link"
-          href="#project"
-        >
-          Projects
-        </SectionLink>
-        <SectionLink
-          onClick={handleLinkClick}
-          className="nav-link link"
-          href="#contact"
-        >
-          Contact
-        </SectionLink>
+        <MenuButton aria-label="menu" onClick={toggleMobileMenu}>
+          <img src="/assets/icons/menu-icon.webp" alt="menu-icon" />
+        </MenuButton>
+        <DesktopLink>
+          <SectionLink
+            onClick={handleLinkClick}
+            className="nav-link link"
+            href="#aboutme"
+          >
+            About
+          </SectionLink>
+          <SectionLink
+            onClick={handleLinkClick}
+            className="nav-link link"
+            href="#project"
+          >
+            Projects
+          </SectionLink>
+          <SectionLink
+            onClick={handleLinkClick}
+            className="nav-link link"
+            href="#contact"
+          >
+            Contact
+          </SectionLink>
+        </DesktopLink>
+        <MobileLink className={`${isMobileMenuOpen ? "open" : ""}`}>
+          <CloseButton onClick={toggleMobileMenu}>
+            <img src="/assets/icons/close-icon.webp" alt="close-icon" />
+          </CloseButton>
+          <SectionLink
+            onClick={handleLinkClick}
+            className="nav-link link"
+            href="#aboutme"
+          >
+            About
+          </SectionLink>
+          <SectionLink
+            onClick={handleLinkClick}
+            className="nav-link link"
+            href="#project"
+          >
+            Projects
+          </SectionLink>
+          <SectionLink
+            onClick={handleLinkClick}
+            className="nav-link link"
+            href="#contact"
+          >
+            Contact
+          </SectionLink>
+        </MobileLink>
       </NavLink>
     </Navbar>
   );

@@ -11,6 +11,11 @@ const GreetingContent = styled.div`
     width: 100%;
     max-width: 100%;
     padding-inline: 3rem;
+    margin-top: 5rem;
+  }
+
+  @media (max-width: 450px) {
+    padding-inline: 1.5rem;
   }
 `;
 
@@ -20,6 +25,10 @@ const Greeting = styled.h1`
   letter-spacing: 0.08rem;
   @media (max-width: 768px) {
     font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  @media (max-width: 450px) {
+    font-size: 2.5rem;
   }
 `;
 
@@ -27,6 +36,9 @@ const Role = styled.span`
   color: #ffffff;
   -webkit-text-stroke: 3px #121212;
   border-bottom: 8px solid #121212;
+  @media (max-width: 450px) {
+    font-size: 2rem;
+  }
 `;
 
 const rotate = keyframes`
@@ -53,6 +65,10 @@ const GreetingDescription = styled.div`
 
     @media (max-width: 768px) {
       font-size: 1.5rem;
+    }
+
+    @media (max-width: 450px) {
+      font-size: 1.25rem;
     }
   }
 `;

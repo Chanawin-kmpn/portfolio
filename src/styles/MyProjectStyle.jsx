@@ -96,6 +96,10 @@ const Hidden = styled.div`
   @media (max-width: 768px) {
     transform: translateX(60%);
   }
+
+  @media (max-width: 450px) {
+    transform: translateX(40%);
+  }
 `;
 
 const HiddenMessage = styled.div`
@@ -109,6 +113,11 @@ const HiddenMessage = styled.div`
   animation: ${fadeIn} 500ms linear 1s forwards;
   padding: 1rem 2rem;
   margin-left: -5rem;
+
+  @media (max-width: 450px) {
+    max-width: 20rem;
+    margin-left: -8rem;
+  }
 
   &::after {
     content: " ";

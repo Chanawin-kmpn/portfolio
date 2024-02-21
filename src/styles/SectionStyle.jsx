@@ -15,6 +15,10 @@ const Section = styled.section`
   &.border-line {
     border-block: 1px solid #121212;
   }
+
+  @media (max-width: 768px) {
+    padding: 4rem 2rem;
+  }
 `;
 
 export { Section };

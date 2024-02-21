@@ -57,7 +57,9 @@ const DirectlyEmail = styled.div`
   @media (max-width: 768px) {
     font-size: 1.25rem;
   }
-
+  @media (max-width: 450px) {
+    font-size: 1rem;
+  }
   & p {
     @media (max-width: 768px) {
       width: fit-content;
@@ -75,6 +77,10 @@ const Email = styled.div`
   @media (max-width: 768px) {
     font-size: 1.5rem;
   }
+
+  @media (max-width: 450px) {
+    font-size: 1.25rem;
+  }
 `;
 
 const Footer = styled.footer`
@@ -87,6 +93,9 @@ const Footer = styled.footer`
 const CopyRight = styled.div`
   @media (max-width: 768px) {
     font-size: 1rem;
+  }
+  @media (max-width: 450px) {
+    font-size: 0.675rem;
   }
 `;
 export {

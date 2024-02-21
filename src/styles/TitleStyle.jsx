@@ -4,6 +4,10 @@ const SectionTitle = styled.div`
   color: #121212;
   margin-bottom: 4rem;
 
+  @media (max-width: 768px) {
+    margin-bottom: 2rem;
+  }
+
   &.white-text {
     color: #ffffff;
   }

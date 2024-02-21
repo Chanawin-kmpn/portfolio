@@ -7,7 +7,9 @@ const MySkillContent = styled.div`
 
 const MySkillDescription = styled.div`
   margin-bottom: 4rem;
-
+  @media (max-width: 768px) {
+    margin-bottom: 2rem;
+  }
   & p {
     @media (max-width: 768px) {
       font-size: 1.25rem;
@@ -20,6 +22,10 @@ const SkillSection = styled.div`
   flex-direction: column;
   gap: 4rem;
   padding-inline: 1rem;
+
+  @media (max-width: 768px) {
+    gap: 2rem;
+  }
 `;
 
 const SkillWrapper = styled.ul`
