@@ -30,7 +30,7 @@ const Hero = () => {
         <DownloadButton aria-label="download-cv-button">
           <a
             className="download-link"
-            href="https://drive.google.com/file/d/1Xzt7DNyYOzHykPRuWrw78aSIggw2GlpW/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1inMYtun--0UlndbqlEdp0G9hUeNoT-0i/view?usp=sharing"
             target="_blank"
           >
             Download CV
