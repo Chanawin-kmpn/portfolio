@@ -34,6 +34,7 @@ const ProfileWrapper = styled.div`
     border: 3px solid #ffffff;
     border-radius: 100%;
     margin: 0 auto;
+    object-fit: cover;
     @media (max-width: 768px) {
       max-width: 250px;
     }

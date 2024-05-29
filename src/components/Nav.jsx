@@ -12,10 +12,11 @@ import {
 const Nav = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    setIsMobileMenuOpen((prev) => !prev);
   };
   const handleLinkClick = (event) => {
     event.preventDefault(); // Prevent default anchor link behavior
+    setIsMobileMenuOpen((prev) => !prev);
     const targetId = event.currentTarget.getAttribute("href").slice(1); // Get the target element's id
     const targetElement = document.getElementById(targetId); // Get element by id that is a name of section
 
@@ -73,32 +74,34 @@ const Nav = () => {
             Contact
           </SectionLink>
         </DesktopLink>
-        <MobileLink className={`${isMobileMenuOpen ? "open" : ""}`}>
-          <CloseButton onClick={toggleMobileMenu}>
-            <img src="/assets/icons/close-icon.webp" alt="close-icon" />
-          </CloseButton>
-          <SectionLink
-            onClick={handleLinkClick}
-            className="nav-link link"
-            href="#aboutme"
-          >
-            About
-          </SectionLink>
-          <SectionLink
-            onClick={handleLinkClick}
-            className="nav-link link"
-            href="#project"
-          >
-            Projects
-          </SectionLink>
-          <SectionLink
-            onClick={handleLinkClick}
-            className="nav-link link"
-            href="#contact"
-          >
-            Contact
-          </SectionLink>
-        </MobileLink>
+        {isMobileMenuOpen && (
+          <MobileLink className={`${isMobileMenuOpen ? "open" : ""}`}>
+            <CloseButton onClick={toggleMobileMenu}>
+              <img src="/assets/icons/close-icon.webp" alt="close-icon" />
+            </CloseButton>
+            <SectionLink
+              onClick={handleLinkClick}
+              className="nav-link link"
+              href="#aboutme"
+            >
+              About
+            </SectionLink>
+            <SectionLink
+              onClick={handleLinkClick}
+              className="nav-link link"
+              href="#project"
+            >
+              Projects
+            </SectionLink>
+            <SectionLink
+              onClick={handleLinkClick}
+              className="nav-link link"
+              href="#contact"
+            >
+              Contact
+            </SectionLink>
+          </MobileLink>
+        )}
       </NavLink>
     </Navbar>
   );

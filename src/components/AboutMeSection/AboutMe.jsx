@@ -45,7 +45,7 @@ const AboutMe = () => {
           </p>
         </AboutmeDescription>
         <ProfileWrapper>
-          <img src="/assets/images/my-profile.webp" alt="profile-image" />
+          <img src="/assets/images/my-protrait.webp" alt="profile-image" />
         </ProfileWrapper>
       </AboutmeContent>
       {/* <BGLeft /> */}
